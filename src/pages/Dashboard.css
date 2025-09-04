@@ -1,0 +1,72 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Filters section */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-box, .dropdown, .price-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+.card small {
+  display: block;
+  color: #555;
+}
+
+/* No products */
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
